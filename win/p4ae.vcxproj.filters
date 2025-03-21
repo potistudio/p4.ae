@@ -4,6 +4,9 @@
     <Filter Include="Resources">
       <UniqueIdentifier>{ac80c6a1-ac7f-41cb-b723-b76e676ec4c9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{60909f0e-30d5-4269-973f-647e2e5a56ad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\pipl\resources.h">
@@ -14,5 +17,10 @@
     <CustomBuild Include="..\pipl\p4ae.r">
       <Filter>Resources</Filter>
     </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\p4ae.cc">
+      <Filter>Sources</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
