@@ -22,5 +22,8 @@
     <ClCompile Include="..\src\p4ae.cc">
       <Filter>Sources</Filter>
     </ClCompile>
+    <ClCompile Include="..\include\aesdk\utils\Smart_Utils.cpp" />
+    <ClCompile Include="..\include\aesdk\utils\AEGP_SuiteHandler.cpp" />
+    <ClCompile Include="..\include\aesdk\utils\MissingSuiteError.cpp" />
   </ItemGroup>
 </Project>

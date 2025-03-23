@@ -12,7 +12,9 @@
 #include "entry.h"
 #include "AE_Effect.h"
 #include "Param_Utils.h"
+#include "Smart_Utils.h"
 #include "AE_EffectCBSuites.h"
+#include "AEGP_SuiteHandler.h"
 
 
 enum class STAGE_VERSION {
